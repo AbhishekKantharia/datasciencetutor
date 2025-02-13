@@ -2,12 +2,6 @@ import streamlit as st
 import google.generativeai as ai
 import os
 
-# Configure API key securely (replace with st.secrets in production)
-API_KEY = os.getenv("GOOGLE_API_KEY")  # Set this in environment variables
-if not API_KEY:
-    st.error("API Key is missing. Please set the GOOGLE_API_KEY environment variable.")
-    st.stop()
-
 ai.configure(api_key="AIzaSyAtlJDZ6nAr13lUfeUNx4R4v7hoZkoYY-Q")
 
 # System prompt for the AI model
