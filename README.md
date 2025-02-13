@@ -1,11 +1,3 @@
-# Data Science Tutor AI Assistant
-
-An interactive Streamlit-based AI tutor for Data Science, powered by Google's Gemini model. Users can ask data science-related questions and receive detailed responses with examples. Includes a mentor support link for 1:1 Zoom calls. Secure API handling and user-friendly UI. 🚀  🔗 Live Demo | 📜 MIT License | 🤖 AI-Powered Assistance
-
-The README is already in **Markdown format** (`.md`). However, if you're looking for a more structured version with **better readability**, here it is:
-
----
-
 # 📚 Data Science Tutor Application
 
 An interactive AI-powered tutor built with **Streamlit** and **Google's Gemini model** to provide detailed explanations of data science concepts. Users can ask data science-related questions and receive insightful responses with examples.
