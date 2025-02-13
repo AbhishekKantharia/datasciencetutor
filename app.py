@@ -2,6 +2,8 @@ import streamlit as st
 import google.generativeai as ai
 import os
 
+api_key = os.getenv("GOOGLE_API_KEY")
+
 ai.configure(api_key=api_key)
 
 # System prompt for the AI model
